@@ -1,2 +1,2 @@
 # open_class_project
-Repository pour les cours d'open classromm sur git
+Ce projet consiste à mettre en place un mini compresseur/décompresseur de fichier.
