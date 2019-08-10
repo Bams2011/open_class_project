@@ -6,7 +6,6 @@ public class SenFileCompressor {
 	
 	public static File[] getFiles(String[] files) {
 		int i=1,j=0;
-		//
 		while(i<files.length ) {
 			if(files[i].equals("-r"))
 				break;
@@ -16,12 +15,10 @@ public class SenFileCompressor {
 		for(j=0;j<i-1;j++) {
 			Tabfiles[j] = new File(files [j+1]);
 		}
-
 		return Tabfiles;
 	}
 	
 	public static void main(String[] args) {
-		//opened_file = new File(args[0]);
 		FileInputStream source = null;
 		FileOutputStream destination = null;
 		FileOutputStream resultfile = null;
