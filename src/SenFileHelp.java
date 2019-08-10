@@ -1,6 +1,6 @@
 //==================================================================================
 // Nom         : help.java
-// Auteur      : Mame Astou GASSAMA
+// Auteur      : Abdoulaye Faye
 // Description : Mini projet java: Le fichier aide
 //==================================================================================
 import java.util.*;
